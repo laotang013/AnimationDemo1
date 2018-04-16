@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "DrawTrianglePath.h"
 #import "CAShapeLayerView.h"
+#import "CARoutationView.h"
 @interface ViewController ()
 /**画布*/
 @property(nonatomic,strong)DrawTrianglePath *trainPathView;
@@ -28,11 +29,16 @@
 //    index = 18;
    //[self.trainPathView drawTrianglePath];
     
-    CAShapeLayerView *button = [[CAShapeLayerView alloc]init];
-    button.frame=CGRectMake(0, 0, 130, 50);
-    button.center=self.view.center;
-    [self.view addSubview:button];
+//    CAShapeLayerView *button = [[CAShapeLayerView alloc]init];
+//    button.frame=CGRectMake(0, 0, 130, 50);
+//    button.center=self.view.center;
+//    [self.view addSubview:button];
     
+    
+    CARoutationView *rotationView = [[CARoutationView alloc]initWithFrame:CGRectMake(0, 0, 80, 80)];
+//    rotationView.frame = CGRectMake(0, 0, 80, 80);
+    rotationView.center = self.view.center;
+    [self.view addSubview:rotationView];
     
     
 }

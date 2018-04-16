@@ -15,6 +15,7 @@
 		C96BBDF420847DBF002BBB14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBDF320847DBF002BBB14 /* main.m */; };
 		C96BBDFC20847DE7002BBB14 /* DrawTrianglePath.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBDFB20847DE7002BBB14 /* DrawTrianglePath.m */; };
 		C96BBDFF20848A2B002BBB14 /* CAShapeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBDFE20848A2B002BBB14 /* CAShapeLayerView.m */; };
+		C96BBE02208498AF002BBB14 /* CARoutationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBE01208498AF002BBB14 /* CARoutationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C96BBDFB20847DE7002BBB14 /* DrawTrianglePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTrianglePath.m; sourceTree = "<group>"; };
 		C96BBDFD20848A2B002BBB14 /* CAShapeLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerView.h; sourceTree = "<group>"; };
 		C96BBDFE20848A2B002BBB14 /* CAShapeLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerView.m; sourceTree = "<group>"; };
+		C96BBE00208498AF002BBB14 /* CARoutationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARoutationView.h; sourceTree = "<group>"; };
+		C96BBE01208498AF002BBB14 /* CARoutationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARoutationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C96BBDFB20847DE7002BBB14 /* DrawTrianglePath.m */,
 				C96BBDFD20848A2B002BBB14 /* CAShapeLayerView.h */,
 				C96BBDFE20848A2B002BBB14 /* CAShapeLayerView.m */,
+				C96BBE00208498AF002BBB14 /* CARoutationView.h */,
+				C96BBE01208498AF002BBB14 /* CARoutationView.m */,
 				C96BBDEA20847DBF002BBB14 /* Main.storyboard */,
 				C96BBDED20847DBF002BBB14 /* Assets.xcassets */,
 				C96BBDEF20847DBF002BBB14 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			files = (
 				C96BBDE920847DBF002BBB14 /* ViewController.m in Sources */,
 				C96BBDF420847DBF002BBB14 /* main.m in Sources */,
+				C96BBE02208498AF002BBB14 /* CARoutationView.m in Sources */,
 				C96BBDFC20847DE7002BBB14 /* DrawTrianglePath.m in Sources */,
 				C96BBDE620847DBF002BBB14 /* AppDelegate.m in Sources */,
 				C96BBDFF20848A2B002BBB14 /* CAShapeLayerView.m in Sources */,
