@@ -33,8 +33,8 @@
 //    button.frame=CGRectMake(0, 0, 130, 50);
 //    button.center=self.view.center;
 //    [self.view addSubview:button];
-    
-    
+//    
+//
     CARoutationView *rotationView = [[CARoutationView alloc]initWithFrame:CGRectMake(0, 0, 80, 80)];
 //    rotationView.frame = CGRectMake(0, 0, 80, 80);
     rotationView.center = self.view.center;
