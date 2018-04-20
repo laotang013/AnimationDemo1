@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C964936920882FEB00FB75D5 /* CAShapeLayerViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C964936820882FEB00FB75D5 /* CAShapeLayerViewDemo.m */; };
+		C964936C20888B5C00FB75D5 /* CAShapeLayerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C964936B20888B5C00FB75D5 /* CAShapeLayerAnimationView.m */; };
 		C96BBDE620847DBF002BBB14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBDE520847DBF002BBB14 /* AppDelegate.m */; };
 		C96BBDE920847DBF002BBB14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBDE820847DBF002BBB14 /* ViewController.m */; };
 		C96BBDEC20847DBF002BBB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96BBDEA20847DBF002BBB14 /* Main.storyboard */; };
@@ -16,9 +18,15 @@
 		C96BBDFC20847DE7002BBB14 /* DrawTrianglePath.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBDFB20847DE7002BBB14 /* DrawTrianglePath.m */; };
 		C96BBDFF20848A2B002BBB14 /* CAShapeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBDFE20848A2B002BBB14 /* CAShapeLayerView.m */; };
 		C96BBE02208498AF002BBB14 /* CARoutationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BBE01208498AF002BBB14 /* CARoutationView.m */; };
+		C9700A6E20871352006ADC00 /* TestAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9700A6D20871352006ADC00 /* TestAnimationView.m */; };
+		C9700A7120871F32006ADC00 /* TestAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9700A7020871F32006ADC00 /* TestAnimationLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C964936720882FEB00FB75D5 /* CAShapeLayerViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerViewDemo.h; sourceTree = "<group>"; };
+		C964936820882FEB00FB75D5 /* CAShapeLayerViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerViewDemo.m; sourceTree = "<group>"; };
+		C964936A20888B5C00FB75D5 /* CAShapeLayerAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerAnimationView.h; sourceTree = "<group>"; };
+		C964936B20888B5C00FB75D5 /* CAShapeLayerAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerAnimationView.m; sourceTree = "<group>"; };
 		C96BBDE120847DBF002BBB14 /* UIBezierPathDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierPathDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96BBDE420847DBF002BBB14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C96BBDE520847DBF002BBB14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +43,10 @@
 		C96BBDFE20848A2B002BBB14 /* CAShapeLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerView.m; sourceTree = "<group>"; };
 		C96BBE00208498AF002BBB14 /* CARoutationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARoutationView.h; sourceTree = "<group>"; };
 		C96BBE01208498AF002BBB14 /* CARoutationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARoutationView.m; sourceTree = "<group>"; };
+		C9700A6C20871352006ADC00 /* TestAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAnimationView.h; sourceTree = "<group>"; };
+		C9700A6D20871352006ADC00 /* TestAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAnimationView.m; sourceTree = "<group>"; };
+		C9700A6F20871F32006ADC00 /* TestAnimationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAnimationLayer.h; sourceTree = "<group>"; };
+		C9700A7020871F32006ADC00 /* TestAnimationLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAnimationLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +87,16 @@
 				C96BBDFB20847DE7002BBB14 /* DrawTrianglePath.m */,
 				C96BBDFD20848A2B002BBB14 /* CAShapeLayerView.h */,
 				C96BBDFE20848A2B002BBB14 /* CAShapeLayerView.m */,
+				C964936720882FEB00FB75D5 /* CAShapeLayerViewDemo.h */,
+				C964936820882FEB00FB75D5 /* CAShapeLayerViewDemo.m */,
+				C964936A20888B5C00FB75D5 /* CAShapeLayerAnimationView.h */,
+				C964936B20888B5C00FB75D5 /* CAShapeLayerAnimationView.m */,
 				C96BBE00208498AF002BBB14 /* CARoutationView.h */,
 				C96BBE01208498AF002BBB14 /* CARoutationView.m */,
+				C9700A6C20871352006ADC00 /* TestAnimationView.h */,
+				C9700A6D20871352006ADC00 /* TestAnimationView.m */,
+				C9700A6F20871F32006ADC00 /* TestAnimationLayer.h */,
+				C9700A7020871F32006ADC00 /* TestAnimationLayer.m */,
 				C96BBDEA20847DBF002BBB14 /* Main.storyboard */,
 				C96BBDED20847DBF002BBB14 /* Assets.xcassets */,
 				C96BBDEF20847DBF002BBB14 /* LaunchScreen.storyboard */,
@@ -159,10 +179,14 @@
 			files = (
 				C96BBDE920847DBF002BBB14 /* ViewController.m in Sources */,
 				C96BBDF420847DBF002BBB14 /* main.m in Sources */,
+				C9700A6E20871352006ADC00 /* TestAnimationView.m in Sources */,
 				C96BBE02208498AF002BBB14 /* CARoutationView.m in Sources */,
+				C964936920882FEB00FB75D5 /* CAShapeLayerViewDemo.m in Sources */,
+				C9700A7120871F32006ADC00 /* TestAnimationLayer.m in Sources */,
 				C96BBDFC20847DE7002BBB14 /* DrawTrianglePath.m in Sources */,
 				C96BBDE620847DBF002BBB14 /* AppDelegate.m in Sources */,
 				C96BBDFF20848A2B002BBB14 /* CAShapeLayerView.m in Sources */,
+				C964936C20888B5C00FB75D5 /* CAShapeLayerAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
