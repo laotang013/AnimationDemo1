@@ -10,6 +10,11 @@
 #import "HETMyInteralHeadLabelView.h"
 #import "HETMyInteralHeadSendView.h"
 #import "HETDemoView.h"
+#import "HETMyInteralHeadSendView.h"
+#import "HETMyInterSignPopView.h"
+#import "HETIntegralImageView.h"
+
+#import "UIImage+HETMethodImage.h"
 @interface ViewController ()
 /**label*/
 @property(nonatomic,strong)HETMyInteralHeadLabelView *label;
@@ -20,24 +25,43 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-  
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 50)];
+    [self.view addSubview:btn];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(btnShow) forControlEvents:UIControlEventTouchUpInside];
     [self.navigationController.navigationBar setBarTintColor:[UIColor redColor]];
     // Do any additional setup after loading the view, typically from a nib.
     self.label = [[HETMyInteralHeadLabelView alloc]initWithtCornerRadius:16 borderWidth:1 borderColor:[UIColor blackColor] fontSize:8.0];
     self.label.frame = CGRectMake(50, 50, 32, 32);
     self.label.text = @"ddd";
     [self.view addSubview:_label];
-    
+
     HETMyInteralHeadSendView *sendView = [[HETMyInteralHeadSendView alloc]initWithFrame:CGRectMake(100, 200, 60, 40)];
     [self.view addSubview:sendView];
     sendView.backgroundColor = [UIColor clearColor];
     sendView.sendViewColor = [UIColor orangeColor];
     sendView.sendViewStr = @"送金蛋";
-    
+
     HETDemoView *demoView = [[HETDemoView alloc]initWithFrame:CGRectMake(100, 300, 44, 22)];
     [self.view addSubview:demoView];
     demoView.backgroundColor = [UIColor clearColor];
+    HETIntegralImageView *interalImageView = [[HETIntegralImageView alloc]initWithFrame:CGRectMake(100, 300, 24, 24)];
+    interalImageView.image = [UIImage imageNamed:@"integralShare"];
+    interalImageView.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:interalImageView];
+    interalImageView.roundLayer.hidden = NO;
+    
+    
+    UIImageView *imageV = [[UIImageView alloc]initWithFrame:CGRectMake(100, 400, 50, 50)];
+    [self.view addSubview:imageV];
+    imageV.image = [UIImage imageNamed:@"sleepPlanAlertFlower"];
+    
+}
+
+-(void)btnShow
+{
+    HETMyInterSignPopView *popView = [[HETMyInterSignPopView alloc]init];
+    [popView show];
 }
 -(void)viewWillAppear:(BOOL)animated
 {
@@ -66,6 +90,9 @@ NSArray *allSubviews(UIView *aView) {
     [super viewWillDisappear:animated];
     self.shadowImage.hidden = NO;
 }
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

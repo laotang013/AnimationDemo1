@@ -26,11 +26,9 @@
     [berierPath addLineToPoint:CGPointMake((self.bounds.size.width)*0.5+margin, margin)];
     [berierPath fill];//贝塞尔线进行填充
     [berierPath stroke];//贝塞尔线进行画笔填充
+    
+    
     NSString *string = @"送金蛋";
-//    NSDictionary *dict  =@{NSFontAttributeName:[UIFont systemFontOfSize:6],NSForegroundColorAttributeName:[UIColor whiteColor]};
-//    [string drawInRect:CGRectMake((self.bounds.size.width-4*margin)/2,(self.bounds.size.height-margin*2)/2, self.bounds.size.width, self.bounds.size.height) withAttributes:dict];
-    
-    
     NSDictionary *dict  =@{NSFontAttributeName:[UIFont systemFontOfSize:(10.0)],NSForegroundColorAttributeName:[UIColor whiteColor]};
     [string drawInRect:CGRectMake((self.bounds.size.width-(30))*0.5,margin, self.bounds.size.width, self.bounds.size.height) withAttributes:dict];
     

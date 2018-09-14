@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9298BCC20A19997001706C1 /* HETMyInterSignPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9298BCA20A19997001706C1 /* HETMyInterSignPopView.m */; };
+		C96F02D620A44A850055F09C /* UIImage+HETMethodImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C96F02D520A44A850055F09C /* UIImage+HETMethodImage.m */; };
+		C977E07D20A285E400CE8278 /* HETIntegralImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C977E07C20A285E400CE8278 /* HETIntegralImageView.m */; };
 		C9848A39209C0B830060EAE9 /* HETDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9848A38209C0B830060EAE9 /* HETDemoView.m */; };
 		C984F41F209994E1000CD46F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C984F41E209994E1000CD46F /* AppDelegate.m */; };
 		C984F422209994E1000CD46F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C984F421209994E1000CD46F /* ViewController.m */; };
@@ -19,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9298BC720A19996001706C1 /* HETMyInterSignPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HETMyInterSignPopView.h; sourceTree = "<group>"; };
+		C9298BCA20A19997001706C1 /* HETMyInterSignPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HETMyInterSignPopView.m; sourceTree = "<group>"; };
+		C96F02D420A44A850055F09C /* UIImage+HETMethodImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HETMethodImage.h"; sourceTree = "<group>"; };
+		C96F02D520A44A850055F09C /* UIImage+HETMethodImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HETMethodImage.m"; sourceTree = "<group>"; };
+		C977E07B20A285E400CE8278 /* HETIntegralImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HETIntegralImageView.h; sourceTree = "<group>"; };
+		C977E07C20A285E400CE8278 /* HETIntegralImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HETIntegralImageView.m; sourceTree = "<group>"; };
 		C9848A37209C0B830060EAE9 /* HETDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HETDemoView.h; sourceTree = "<group>"; };
 		C9848A38209C0B830060EAE9 /* HETDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HETDemoView.m; sourceTree = "<group>"; };
 		C984F41A209994E1000CD46F /* DemoForDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +86,13 @@
 				C984F435209994EB000CD46F /* HETMyInteralHeadSendView.m */,
 				C9848A37209C0B830060EAE9 /* HETDemoView.h */,
 				C9848A38209C0B830060EAE9 /* HETDemoView.m */,
+				C977E07B20A285E400CE8278 /* HETIntegralImageView.h */,
+				C977E07C20A285E400CE8278 /* HETIntegralImageView.m */,
 				C984F423209994E1000CD46F /* Main.storyboard */,
+				C9298BC720A19996001706C1 /* HETMyInterSignPopView.h */,
+				C9298BCA20A19997001706C1 /* HETMyInterSignPopView.m */,
+				C96F02D420A44A850055F09C /* UIImage+HETMethodImage.h */,
+				C96F02D520A44A850055F09C /* UIImage+HETMethodImage.m */,
 				C984F426209994E1000CD46F /* Assets.xcassets */,
 				C984F428209994E1000CD46F /* LaunchScreen.storyboard */,
 				C984F42B209994E1000CD46F /* Info.plist */,
@@ -157,11 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9298BCC20A19997001706C1 /* HETMyInterSignPopView.m in Sources */,
 				C984F422209994E1000CD46F /* ViewController.m in Sources */,
+				C96F02D620A44A850055F09C /* UIImage+HETMethodImage.m in Sources */,
 				C984F438209994EB000CD46F /* HETMyInteralHeadSendView.m in Sources */,
 				C984F437209994EB000CD46F /* HETMyInteralHeadLabelView.m in Sources */,
 				C9848A39209C0B830060EAE9 /* HETDemoView.m in Sources */,
 				C984F42D209994E1000CD46F /* main.m in Sources */,
+				C977E07D20A285E400CE8278 /* HETIntegralImageView.m in Sources */,
 				C984F41F209994E1000CD46F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
